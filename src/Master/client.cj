@@ -204,7 +204,7 @@ public class SseClient {
         // "no id field seen" (which cannot turn a non-empty id empty).
         // The old non-empty guard swallowed the reset, so the reconnect
         // Last-Event-ID header disagreed with the server's latest cursor
-        // (ISSUE-20260912-MA5-C / MA4-igSSE).
+        // (prior hardening round).
         policy.onEvent(lid)
     }
 

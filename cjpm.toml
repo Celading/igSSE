@@ -6,6 +6,6 @@
   src-dir = "src"
   compile-option = "-Woff unused"
   license = "Apache-2.0"
-  description = "IgniteKit SSE (WHATWG server-sent events) member — pure Cangjie runtime, CFM/P structure"
+  description = "Server-Sent Events (WHATWG) codec, resume, heartbeat and backpressure for Cangjie — pure std"
   include = ["src", "README.md", "LICENSE", "NOTICE"]
   exclude = ["target", "build", "_helper", "scripts", "cangjie-repo.toml", "**/cangjie-repo.toml", "**/cangjie-repo.toml.*", "**/__pycache__/**", "**/*.pyc", "**/*.bak"]

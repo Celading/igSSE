@@ -22,7 +22,7 @@ import std.time.*
 // Concurrency: one spawned thread per connection under a hard cap
 // (over-cap connections are closed immediately and silently — writing a
 // 503 from the accept thread to a silent client would block the whole
-// accept loop; ISSUE-20260910-008 F3) — the CjRPC serial-accept lesson
+// accept loop; F3) — the serial-accept lesson
 // applied: an SSE connection is long-lived by definition, so a serial
 // accept loop could never serve a second client.
 // =============================================================================
