@@ -192,7 +192,7 @@ public class SseClient {
     /// update at PARSE time, not at dispatch — wherever bytes enter the
     /// parser (head leftover OR stream reads), the resume policy must
     /// sync. A retry-only / id-only line with no data still reaches it
-    /// (MA3-igSSE).
+    /// (prior hardening round).
     private func syncParserStateToPolicy(): Unit {
         match (parser.reconnectionTimeMs()) {
             case Some(ms) => policy.onServerRetry(ms)
