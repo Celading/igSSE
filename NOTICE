@@ -1,0 +1,24 @@
+igSSE — NOTICE
+Copyright 2026 Cinyu <Celading@qq.com>
+
+This product includes software developed as part of the IgniteKit project.
+
+Trademarks
+----------
+Server-Sent Events are trademarks or registered trademarks of the WHATWG.
+
+This is an independent implementation written from publicly available
+specifications. It is not affiliated with, sponsored by, authorised by, or
+endorsed by the trademark owner, and it is not an official implementation.
+
+Standards conformance wording
+-----------------------------
+This library implements the specifications listed below. "Implements" means the
+behaviour was written against the specification text. It is not a certification,
+and no standards body has reviewed, tested, or endorsed this implementation.
+
+- the WHATWG Server-Sent Events specification
+
+Licensing
+---------
+Licensed under the Apache License, Version 2.0. See LICENSE for the full text.

@@ -1,0 +1,11 @@
+[package]
+  cjc-version = "1.1.3"
+  name = "igsse"
+  version = "0.1.0"
+  output-type = "static"
+  src-dir = "src"
+  compile-option = "-Woff unused"
+  license = "Apache-2.0"
+  description = "IgniteKit SSE (WHATWG server-sent events) member — pure Cangjie runtime, CFM/P structure"
+  include = ["src", "README.md", "LICENSE", "NOTICE"]
+  exclude = ["target", "build", "_helper", "scripts", "cangjie-repo.toml", "**/cangjie-repo.toml", "**/cangjie-repo.toml.*", "**/__pycache__/**", "**/*.pyc", "**/*.bak"]
